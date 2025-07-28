@@ -41,10 +41,8 @@ async def list_customer():
 
 @app.post("/transactions")
 async def create_transaction( transaction_data: Transaction ):
-
     return transaction_data
 
 @app.post("/invoices")
 async def create_invoice( invoice_data: Invoice ):
-
     return invoice_data
