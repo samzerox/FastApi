@@ -1,0 +1,50 @@
+# Entornos virtuales
+venv/
+.env/
+.env.*  # Por si usas múltiples archivos .env
+
+# Archivos Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de configuración del editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias y distribución
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Archivos de cobertura de pruebas
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# SQLite u otras bases de datos locales
+*.sqlite3
+*.db
+
+# Archivos generados por alembic (si usas migraciones)
+alembic.ini
+migrations/versions/*.pyc
+
+# Cachés de pip o poetry
+pip-wheel-metadata/
+__pypackages__/
+poetry.lock
+poetry.toml
+
+# Archivos específicos del entorno
+*.envrc
+.venv/
